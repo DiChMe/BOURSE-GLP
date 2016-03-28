@@ -81,7 +81,7 @@ public class Entreprise {
 	}
 
 	public void setCapital(double capital) {
-		capital = capital;
+		this.capital = capital;
 	}
 
 	public HashMap<String, Evenement> getEvenements() {
@@ -147,9 +147,5 @@ public class Entreprise {
 	public void setNbNeutre(int nbNeutre) {
 		this.nbNeutre = nbNeutre;
 	}
-
-	
-	
-	
 	
 }
