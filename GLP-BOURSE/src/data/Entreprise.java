@@ -19,9 +19,9 @@ public class Entreprise {
 	private int idMarcheObligation = -1;
 	private int sommeEffet=0;
 	
-	//int nbAcheteur;
-	//int nbVendeur;
-	//int nbNeutre;
+	private int nbAcheteur;
+	private int nbVendeur;
+	private int nbNeutre;
 	
 	private double dette=0;
     
@@ -139,6 +139,30 @@ public class Entreprise {
 
 	public void setSommeEffet(int sommeEffet) {
 		this.sommeEffet = sommeEffet;
+	}
+
+	public int getNbAcheteur() {
+		return nbAcheteur;
+	}
+
+	public void setNbAcheteur(int nbAcheteur) {
+		this.nbAcheteur = nbAcheteur;
+	}
+
+	public int getNbVendeur() {
+		return nbVendeur;
+	}
+
+	public void setNbVendeur(int nbVendeur) {
+		this.nbVendeur = nbVendeur;
+	}
+
+	public int getNbNeutre() {
+		return nbNeutre;
+	}
+
+	public void setNbNeutre(int nbNeutre) {
+		this.nbNeutre = nbNeutre;
 	}
 
 	
