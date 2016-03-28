@@ -84,14 +84,6 @@ public class Entreprise {
 		capital = capital;
 	}
 
-	public double getDanger() {
-		return seuil;
-	}
-
-	public void setDanger(double danger) {
-		this.seuil = danger;
-	}
-
 	public HashMap<String, Evenement> getEvenements() {
 		return evenements;
 	}
