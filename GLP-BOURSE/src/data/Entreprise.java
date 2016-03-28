@@ -14,7 +14,7 @@ public class Entreprise {
     private HashMap<String, Evenement> evenements = new HashMap<String, Evenement>();
 	private String type;
 	private int idEntrerpise=0;
-	int proportion=0;
+	
 	private int idMarcheAction=-1;
 	private int idMarcheObligation = -1;
 	private int sommeEffet=0;
@@ -50,15 +50,6 @@ public class Entreprise {
 	}
 
 	
-
-	public int getProportion() {
-		return proportion;
-	}
-
-	public void setProportion(int proportion) {
-		this.proportion = proportion;
-	}
-
 	public String getType() {
 		return type;
 	}
