@@ -8,19 +8,14 @@ public abstract class Marche {
 	private double prixCourant;
 	private double prixBas;
 	private double prixHaut;
+	private double dernierPrix; 
 	private OrderBook carnetOrdre;
 	private Acteur[][] matriceActeurs=new Acteur[5][5];
 	private XYSeries cotation = new XYSeries("cotation");
 	
 	
 	
-	public XYSeries getCotation() {
-		return cotation;
-	}
 
-	public void setCotation(XYSeries cotation) {
-		this.cotation = cotation;
-	}
 
 	public Marche(int idMarche, int idEntreprise, double prixCourant, double prixBas, double prixHaut) {
 		super();
@@ -95,6 +90,23 @@ public abstract class Marche {
 	public void setMatriceActeurs(Acteur[][] matriceActeurs) {
 		this.matriceActeurs = matriceActeurs;
 	}
+	
+	public XYSeries getCotation() {
+		return cotation;
+	}
+
+	public void setCotation(XYSeries cotation) {
+		this.cotation = cotation;
+	}
+
+	public double getDernierPrix() {
+		return dernierPrix;
+	}
+
+	public void setDernierPrix(double dernierPrix) {
+		this.dernierPrix = dernierPrix;
+	}
+	
 	
 	
 
