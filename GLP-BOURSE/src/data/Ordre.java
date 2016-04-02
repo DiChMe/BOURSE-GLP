@@ -11,6 +11,7 @@ public abstract class Ordre implements Comparable{
 	private Date date;
 	private int idEntreprise;
 	private int idMarche;
+	private String etat= "En Attente";
 	
 	public int getIdMarche() {
 		return idMarche;
