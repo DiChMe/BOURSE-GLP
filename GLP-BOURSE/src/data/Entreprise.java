@@ -25,40 +25,6 @@ public class Entreprise {
 	
 	private double dette=0;
     
-	public double getDette() {
-		return dette;
-	}
-
-	public void setDette(double dette) {
-		this.dette = dette;
-	}
-
-	public String getNom() {
-		return nom;
-	}
-
-	public void setNom(String nom) {
-		this.nom = nom;
-	}
-
-	public double getSeuil() {
-		return seuil;
-	}
-
-	public void setSeuil(double seuil) {
-		this.seuil = seuil;
-	}
-
-	
-	public String getType() {
-		return type;
-	}
-
-	public void setType(String type) {
-		this.type = type;
-	}
-
-	
 
 	public Entreprise(String type, String name, double capital) {
 		this.nom = name;
@@ -147,5 +113,39 @@ public class Entreprise {
 	public void setNbNeutre(int nbNeutre) {
 		this.nbNeutre = nbNeutre;
 	}
+	
+	public double getDette() {
+		return dette;
+	}
+
+	public void setDette(double dette) {
+		this.dette = dette;
+	}
+
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public double getSeuil() {
+		return seuil;
+	}
+
+	public void setSeuil(double seuil) {
+		this.seuil = seuil;
+	}
+	
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	
 	
 }
