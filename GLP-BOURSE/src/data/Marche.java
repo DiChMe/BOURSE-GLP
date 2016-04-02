@@ -12,6 +12,7 @@ public abstract class Marche {
 	private OrderBook carnetOrdre;
 	private Acteur[][] matriceActeurs=new Acteur[5][5];
 	private XYSeries cotation = new XYSeries("cotation");
+	private String type;
 	
 	
 	
@@ -106,6 +107,16 @@ public abstract class Marche {
 	public void setDernierPrix(double dernierPrix) {
 		this.dernierPrix = dernierPrix;
 	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+
 	
 	
 	
